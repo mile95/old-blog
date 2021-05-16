@@ -8,4 +8,4 @@ comments: false
 Hi there 👋
 
 My name is Fredrik Mile, and I'm a Software Developer from Sweden. 
-This blog is for me to document my software engineering journey and my learnings.
+This blog is for me to document my software engineering journey.
