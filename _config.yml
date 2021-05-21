@@ -14,12 +14,12 @@ mode: dark # default theme "dark" | "light"
 author:
   name: Fredrik Mile # author name
   bio: >- # tell to the world
-    Software Developer from Sweden.
+    Software Developer from Sweden
     <br></br>
     I write about various topics but mainly learnings from my side-projects. 
     The idea is to write both about soft software skills but also deep-dive into more technical areas.
     <br></br>
-    I'm currently learning AWS, and I also like to improve my technical writing!
+    I'm currently learning AWS and how to write technical blogs 😉 
     <br></br>
     <a href="https://github.com/mile95" target="_blank" rel="noopener">@github</a>.
     <a href="https://twitter.com/milefredrik" target="_blank" rel="noopener">@twitter</a>.
