@@ -223,14 +223,14 @@ It is now time to deploy the Twitter bot to AWS.
 2. In the overview of the new Lambda Function, I go to the Code tab and upload the `.zip` I created earlier.
 3. I test the Lambda Function by going to the Test tab and send a new test event. If the test succeeded, I see something similar to the image below. I can also visit Twitter and verify that my bot has recently tweeted.
 
-  ![clipboard.png](test_response.png)
+  ![testresponse](/assets/img/twitter-bot/test_response.png)
   
   
 4. Now that I know that the Lambda is working as I want, there's only one thing left to do. I need to schedule trigger events for the Lambda Function. I want my bot to tweet updates daily at 10 am, 12 am, and 3 pm. I achieve this by using the **CloudWatch** AWS service. In the left column of the CloudWatch page, I go to **Events**, then **Rules** and finally **Create rule**. In the first step of the rule creation, I select **Schedule** and I then insert `0 10 * * ? *` as the **Cron expression**. An event will now be triggered every day at 10 am. For the **Targets** in the right column, I select the Lambda Function and then finalize the rule in **Step 2**.  I repeat this for both the event at 13 am and the event at 3 pm.
 
 My configuration looks like this: 
 
-![clipboard.png](rule_config.png)
+![ruleconfig](/assets/img/twitter-bot/rule_config.png)
 
 * * * 
 
