@@ -1,14 +1,9 @@
 ---
 layout: post
-title: Cara ribet memperbarui forked repo
-date: 2020-01-29 01:00 +0700
-modified: 2020-03-07 16:49:47 +07:00
-description: Ada dua cara untuk memperbarui forked repository menggunakan web interface yang disediakan oleh github tapi ribet, atau melalui terminal yang lebih ribet lagi.
-tag:
-  - tips
-  - git
-  - software
-image: /twitter-bot/twitterdeveloper.png
+title:  "Creating a Twitter bot in Python and let it move into AWS."
+date:   2021-05-28 10:10:15 +0700
+categories: [python, aws]
+image: /twitter-bot/twitter_developer.png
 ---
 
 # Creating a Twitter bot in Python and let it move into AWS.
@@ -24,9 +19,7 @@ Before I start, there are a few prerequisites to set up.
 3.  I need to create a **Project** in the Twitter Developer Portal and then create an **App** inside the **Project**.
 4. On the App overview, I made sure to set the correct permissions. The needed **API Keys** and **API Tokens** is then available under the **Keys and Token Tab**. Below is how it looks for me:
 
-<figure>
-<img src="{{ page.image }}" alt="ilustrasi repo yang mau diupdate">
-</figure>
+![twitterdeveloper](assets/img/twitter-bot/twitterdeveloper.jpg)
 5. The last thing I need to set up is an AWS account, which I did [here](https://portal.aws.amazon.com/billing/signup#/start).
 
 ## Coding the bot
