@@ -234,6 +234,6 @@ My configuration looks like this:
 
 * * * 
 
-That's all! Now I have a Twitter Bot up and running and,  it Tweets updated three times a day. You can find the Twitter Bot [here](https://twitter.com/gbgplanstatus), and you can find the source code for the Lambda Function [here](https://github.com/mile95/gbg-field-status-bot).
+That's all! Now I have a Twitter Bot up and running and it Tweets updated three times a day. You can find the Twitter Bot [here](https://twitter.com/gbgplanstatus), and you can find the source code for the Lambda Function [here](https://github.com/mile95/gbg-field-status-bot).
 
 Thanks for reading, 👋! 
