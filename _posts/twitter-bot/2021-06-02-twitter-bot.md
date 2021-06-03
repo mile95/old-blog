@@ -1,9 +1,14 @@
 ---
 layout: post
-title:  "Creating a Twitter bot in Python and let it move into AWS."
-date:   2021-05-28 10:10:15 +0700
-categories: [python, aws]
-image: /twitter-bot/twitter_developer.png
+title: Cara ribet memperbarui forked repo
+date: 2020-01-29 01:00 +0700
+modified: 2020-03-07 16:49:47 +07:00
+description: Ada dua cara untuk memperbarui forked repository menggunakan web interface yang disediakan oleh github tapi ribet, atau melalui terminal yang lebih ribet lagi.
+tag:
+  - tips
+  - git
+  - software
+image: /twitter-bot/twitterdeveloper.png
 ---
 
 # Creating a Twitter bot in Python and let it move into AWS.
