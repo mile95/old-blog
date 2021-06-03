@@ -3,6 +3,7 @@ layout: post
 title:  "Creating a Twitter bot in Python and let it move into AWS."
 date:   2021-05-28 10:10:15 +0700
 categories: [python, aws]
+image: /twitter-bot/twitter_developer.png
 ---
 
 # Creating a Twitter bot in Python and let it move into AWS.
@@ -18,7 +19,9 @@ Before I start, there are a few prerequisites to set up.
 3.  I need to create a **Project** in the Twitter Developer Portal and then create an **App** inside the **Project**.
 4. On the App overview, I made sure to set the correct permissions. The needed **API Keys** and **API Tokens** is then available under the **Keys and Token Tab**. Below is how it looks for me:
 
-![clipboard.png](_posts/twitter-bot/twitter_developer.png)
+<figure>
+<img src="{{ page.image }}" alt="ilustrasi repo yang mau diupdate">
+</figure>
 5. The last thing I need to set up is an AWS account, which I did [here](https://portal.aws.amazon.com/billing/signup#/start).
 
 ## Coding the bot
