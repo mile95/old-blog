@@ -6,7 +6,7 @@ categories: [terraform, aws, github-actions]
 ---
 
 # Terraform with Github Actions - Secret Handling
-GitHub recently released early access to their [CoPilot](https://copilot.github.com/) - *"Your AI pair programmer"*. The reactions have been mixed, which one could have guessed. I think the tool is awesome, and I can see myself using it in the future,  but I think it is far from ready for being used in daily work yet. In addition to all the positive feedback, some less good things have also emerged. Reports show that the CoPilot has been leaking functional API keys, see more [here](https://www.theregister.com/2021/07/06/github_copilot_autocoder_caught_spilling/). The AI learns from the actual code that people write and open source on Github. If people store sensitive information directly in the source code, the AI will of course learn those as well.     
+Github recently released early access to their [CoPilot](https://copilot.github.com/) - *"Your AI pair programmer"*. The reactions have been mixed, which one could have guessed. I think the tool is awesome, and I can see myself using it in the future,  but I think it is far from ready for being used in daily work yet. In addition to all the positive feedback, some less good things have also emerged. Reports show that the CoPilot has been leaking functional API keys, see more [here](https://www.theregister.com/2021/07/06/github_copilot_autocoder_caught_spilling/). The AI learns from the actual code that people write and open source on Github. If people store sensitive information directly in the source code, the AI will of course learn those as well.     
 
 I recently tried out Terraform with Github Actions for automating infrastructure and deployment. I soon realized that I had a lot of secrets to manage. These were secrets from the application itself and the infrastructure. In this blog post, I explain how I kept those secrets safe while using Terraform and Github Actions fully.   
 
@@ -59,7 +59,7 @@ Already, there are a few secrets to handle
 
 The above terraform configuration file will be used in the Github Actions workflow so let's put the secrets in [Github Secrets](https://docs.github.com/en/actions/reference/encrypted-secrets), which will encrypt them and keep them safe.
 
-## The Gitub Actions Workflows
+## The Github Actions Workflows
 
 I created two different Github Actions Workflows: 
 
@@ -105,7 +105,7 @@ These variables can now be set with values from Github secrets. For instance, by
 $ terraform plan -var AWS_ACCESS_KEY="${{secrets.AWS_ACCESS_KEY}}" -var AWS_SECRET_KEY="${{secrets.AWS_SECRET_KEY}}"
 ```
 
-### Workflow walktrough
+### Workflow walkthrough
 
 The basics of the **Plan** workflow looks like this: 
 
