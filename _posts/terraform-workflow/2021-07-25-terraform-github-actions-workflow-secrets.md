@@ -15,7 +15,7 @@ In a previous [post](https://mile95.github.io/twitter-bot/), I explained how I c
 ## The required infrastructure
 The infrastructure around an application is almost as important as the application itself. For the Twitter Bot to function at its best, two AWS resources were needed. I needed to create a λ-function and a cloud watch trigger in AWS. The base configuration file `configuration.tf` looked like this: 
 
-```json
+```terraform
 provider "aws" {
   region     = "eu-north-1"
   access_key = ...
@@ -85,7 +85,7 @@ You define variables in the `configuration.tf` like below.
 
 *sensitive = true makes sure that the values are not shown in logs etc. * 
 
-```json
+```terraform
 variable "AWS_ACCESS_KEY" {
   description = "AWS_ACCESS_KEY"
   type        = string
@@ -193,7 +193,7 @@ One way to solve this issue is to use an external backend for the terraform, for
 
 To use the AWS s3 bucket as a backend, changes to the workflows and the `configuration.tf` file had to be made. When an s3 bucket was created in AWS, the following was added to the `configuration.tf`
 
-```json
+```terraform
 terraform {
   backend "s3" {
     bucket = "fmtfstatebucket"
