@@ -17,9 +17,6 @@ author:
     Software Developer from Sweden
     <br></br>
     This blog is for me to document my software engineering journey.
-    The idea is to write both about soft software skills but also deep-dive into more technical areas.
-    <br></br>
-    I'm currently learning AWS and how to write technical blogs.
     <br></br>
     <a href="https://github.com/mile95" target="_blank" rel="noopener">@github</a>.
     <a href="https://twitter.com/milefredrik" target="_blank" rel="noopener">@twitter</a>.
@@ -28,7 +25,7 @@ author:
   twitter: milefredrik # twitter username
   facebook: facebook_username # facebook username
   email: fredrik.mile[at]gmail.com # email adress
-  avatar: /assets/img/1cc.png # change with your own avatar
+  avatar: /assets/img/profile.png # change with your own avatar
 
 # URL settings
 url: "https://mile95.github.io" #
