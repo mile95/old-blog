@@ -2,7 +2,7 @@
 layout: post
 title:  "Creating a Twitter bot in Python and let it move into AWS."
 date:   2021-05-28 10:10:15 +0700
-categories: [python, aws]
+tags: [python, aws]
 image: /twitter-bot/twitter_developer.png
 ---
 

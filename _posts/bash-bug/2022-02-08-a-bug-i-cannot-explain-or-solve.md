@@ -2,7 +2,7 @@
 layout: post
 title:  "A bug I cannot explain or solve"
 date:   2022-02-08 10:10:15 +0700
-categories: [bash, bug]
+tags: [bash, bug]
 ---
 
 # A bug I cannot explain or solve.

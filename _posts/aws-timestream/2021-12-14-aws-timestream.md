@@ -2,7 +2,7 @@
 layout: post
 title:  "Trying out AWS Timestream"
 date:   2021-12-14 10:10:15 +0700
-categories: [aws, database]
+tags: [aws]
 ---
 
 # Trying out Amazon Timestream

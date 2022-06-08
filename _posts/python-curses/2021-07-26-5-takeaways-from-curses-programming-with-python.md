@@ -2,7 +2,7 @@
 layout: post
 title:  "5 takeaways from curses programming with Python"
 date:   2022-04-26 10:10:15 +0700
-categories: [python, curses]
+tags: [python]
 ---
 
 Curses is a terminal control library for Unix systems that makes it possible to write Text User Interface (TUI) applications. You rarely see them in today’s world of graphical user interfaces, but I find them quite cool hence I decided to create one myself.

@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Mark And Learn - Chrome Extension"
-date:   2022-01-21 07:10:15 +0700
-categories: [chromeextension]
+title: "Mark And Learn - Chrome Extension"
+date: 2022-01-21 07:10:15 +0700
+tags: [project]
 ---
 
 # Mark And Learn - Chrome Extension

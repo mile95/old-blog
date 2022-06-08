@@ -2,7 +2,7 @@
 layout: post
 title: "Better Terminal Experience for Git and Kubernetes"
 date: 2022-05-11 21:04:31 +02:00
-categories: [terminal, git, kubernetes]
+tags: [terminal, git, kubernetes]
 ---
 
 When working on a project that uses **git**, it is essential to checkout the correct branch. You don't want to realize after a few hours of work that you worked on the wrong branch and have a few messy merges and rebases in front of you. Of course, the easiest way to show the current branch is to run `git status` but that requires an action from you, Instead, I recommend you to include the git branch as part of your prompt string. The prompt string is the string that marks your command line and is set by the shell variable `PS1`. 

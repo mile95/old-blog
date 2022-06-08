@@ -1,10 +1,8 @@
 ---
 title: "Long feedback loops invite for context switching"
 date: "2022-02-22T10:08:32+02:00"
-tags:
-  - Mindset
-author:
-  - Fredrik Mile
+tags: Mindset
+author: Fredrik Mile
 ---
 As a backend developer, there is especially one thing that I’m jealous of when it comes to frontend development. The short feedback loop, namely, the time and effort it takes to get feedback for your changes. Enable hot or live reloading while developing, and the results of your changes will be in front of you instantly, which is super nice. This is how it should be, even when you are developing the backend, infrastructure, CI/CD, or whatever. A long feedback loop can have a lot of hidden consequences, and it makes you ineffective. You and your team should spend time making sure that your feedback loop is short, and kept short.
 

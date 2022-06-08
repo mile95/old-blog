@@ -2,7 +2,7 @@
 layout: post
 title:  "Terraform with Github Actions - Secret Management"
 date:   2021-07-23 10:10:15 +0700
-categories: [terraform, aws, github-actions]
+tags: [terraform, aws, github-actions]
 ---
 
 # Terraform with Github Actions - Secret Management
