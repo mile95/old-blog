@@ -13,15 +13,15 @@ layout: compress
 
     const initTheme = (state) => {
       if (state === "dark") {
-        body.setAttribute("data-theme", "dark");
+        body.setAttribute("data-theme", "light");
       } else if (state === "light") {
         body.removeAttribute("data-theme");
       } else {
-        localStorage.setItem("theme", data);
+        localStorage.setItem("theme", "light");
       }
     };
  
-    initTheme(localStorage.getItem("theme"));
+    initTheme("light");
     
     setTimeout(() => body.classList.remove("notransition"), 75);
   </script>
