@@ -25,8 +25,3 @@ I really need to become a better listener. This book made me realize the importa
 
 A good listener does not interupt with "solutions". A good listener tries to understand the problem from the other person's perspective and not his own. Most often, persons don't want input. Listen with the reason to understand, not with the reason the reply.
 
-## What now
-
-I'm going to write the first iteration of my personal mission statement. 
-
-I'm going to try to become a better listener.
