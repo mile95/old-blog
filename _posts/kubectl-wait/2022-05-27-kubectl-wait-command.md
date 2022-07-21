@@ -1,7 +1,7 @@
 ---
 title: "The kubectl wait Command"
 date: 2022-05-27T10:48:19+02:00
-tags: [Kubernetes]
+tags: [kubernetes]
 description: "How to use the kubectl wait command"
 slug: "kubectl-wait-command"
 author: Fredrik Mile

@@ -1,7 +1,7 @@
 ---
 title: "I read: The 7 Habits of Highly Effective People "
 date: 2022-06-06T10:48:19+02:00
-tags: [Books]
+tags: [books]
 description: "My main takeaways from The 7 habits of highly effecitve people by Stephen R. Covey"
 author: Fredrik Mile
 
