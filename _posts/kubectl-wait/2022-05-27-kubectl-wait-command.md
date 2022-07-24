@@ -1,5 +1,5 @@
 ---
-title: "The kubectl wait Command"
+title: "The kubectl wait command"
 date: 2022-05-27T10:48:19+02:00
 tags: [kubernetes]
 description: "How to use the kubectl wait command"
