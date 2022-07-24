@@ -1,7 +1,6 @@
 # Site settings
 title: Fredrik Mile # site title
 description: >- # site description
-  Software Developer experienced in Python and Java. I'm currently learning AWS. I write about various topics but mainly learnings from my side-projects! 
   <a href="https://github.com/mile95" target="_blank" rel="noopener">@github</a>.
   <a href="https://twitter.com/fredrikmile" target="_blank" rel="noopener">@twitter</a>.
 lang: en-US # default lang
@@ -15,8 +14,6 @@ author:
   name: Fredrik Mile # author name
   bio: >- # tell to the world
     Software Developer
-    <br></br>
-    This blog is for me to document my software engineering journey.
     <br></br>
     <a href="https://github.com/mile95" target="_blank" rel="noopener">@github</a>.
     <a href="https://twitter.com/milefredrik" target="_blank" rel="noopener">@twitter</a>.
