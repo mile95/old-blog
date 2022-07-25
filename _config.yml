@@ -28,7 +28,7 @@ author:
 url: "https://mile95.github.io" #
 baseurl:
 permalink: /:title/
-google_analytics: # leave it blank if not wish
+google_analytics: "G-C4XYG784RR"
 fb_appid:
 
 # Collection setting
