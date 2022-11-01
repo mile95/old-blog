@@ -33,7 +33,7 @@ If the graph shows that 20 goals were scored at game time 7,  that corresponds t
 
 To score goals, you need to be onside and not offside, which the bottom three teams seem to have a problem with the first 50 minutes of the games. During the last 15 minutes of the games, the better teams are more likely to push for wins and also more likely to end up in an offside position.
 
-![offside] (1)](https://user-images.githubusercontent.com/8545435/199304959-2ef8f447-7771-4ac9-ad9f-72fb0083954e.png)
+![offside](https://user-images.githubusercontent.com/8545435/199304959-2ef8f447-7771-4ac9-ad9f-72fb0083954e.png)
 
 ## Yellow card
 
