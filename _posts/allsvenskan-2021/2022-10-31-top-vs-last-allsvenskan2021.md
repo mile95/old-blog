@@ -87,5 +87,5 @@ That's all for this post.
 You can run the source code to get similar graphs over other events.
 Again, thanks to [PlaymakerAI](https://twitter.com/playmakerai) for the data.
 
-[@milefredik](https://twitter.com/MileFredrik) if you want to get in touch!
+[@milefredrik](https://twitter.com/MileFredrik) if you want to get in touch!
 
