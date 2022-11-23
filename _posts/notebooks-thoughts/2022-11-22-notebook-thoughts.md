@@ -5,17 +5,15 @@ tags: [data analysis, python]
 author: Fredrik Mile
 ---
 I've seen projects where notebooks create great value, but I've also seen projects where they create a mess.
-The difference between projects has been how these notebooks have been structured and used.
+The difference between these projects has been how these notebooks have been structured and used.
 
 I'm referring to [jupyter notebooks](https://jupyter.org/) and [databricks notebooks](https://docs.databricks.com/notebooks/index.html), which are both great tools created for data analysis.
 Notebooks are a mix of live code, visualizations, and markdown text that you run and developed via a web-based interactive computational environment, like Jupyter.
 
-So, when should notebooks be used to great the most value?
-
 ## When to use notebooks
 
-There's a reason why notebooks are popular.
-They are easy to use and get started with and they do some stuff well.
+There's a reason why notebooks are so popular.
+They are easy to get started with and they do some stuff really well.
 
 ### Exploration
 
@@ -28,7 +26,7 @@ For instance, if you need to explore or play around with a dataset or an API, no
 Notebooks are often part of a data science project, and since notebooks are a mix of text, visualizations, and code,  they work great as a reporting tool.
 
 If the task is for you to analyze a dataset and present a report to the customer, notebooks are the perfect match. The notebook can be exported (with code, visualizations, and text) as a pdf, making the report available for everyone.
-The code in the notebook exists only for the report and should be used anywhere else. The notebook is an isolated delivery.
+The code in the notebook exists only for the report and should not be reused anywhere else. The notebook and its content is an isolated delivery.
 
 ## When to NOT use notebooks
 
@@ -41,6 +39,7 @@ My suggestion is to **not use notebooks in production**, and there are a few rea
 1. Code in notebooks is not reusable. 
 It is not possible to import code from one notebook to another one, without running the notebook, which can cause the execution of unwanted code.
 1. The order of execution is not defined. Running cells in arbitrary order can cause unexpected behavior.
+1. You create a hard dependency on environment and tools required to run your notebook.
 
 ## My approach and advice 
 
