@@ -16,7 +16,7 @@ The change feed of delta table is a record of all the changes made to the table 
 For instance, if the change feed contained an `Insert`, that meant that a new measurement source had been identified. An `Update` meant that we had a new version of the measurement source, for instance if the measurement source had changed its position.
 We used the change feed of the table to keep track of versions of the measurement sources.
 
-Assume the following delta table with two data sources.
+Assume the following delta table with two measurement sources.
 
 | id | pos       |
 |----|-----------|
@@ -38,7 +38,7 @@ It points to a version of the table containing the change.
 
 Recently we identified a bug in our data pipeline where all expected versions were not identified correctly due to the way we consumed the change feed.
 
-## The issue
+## The misunderstanding
 
 We consumed the change feed in a streamed manner using pyspark to easy faciliate checkpoints of which rows of the change feed we had processed and which we had not processed. 
 
@@ -70,6 +70,7 @@ Running the above code resulted in this minimal change feed.
 Hence, the version where `x` had position `(100,100)` and measurement source `y`, was swept under the carpet resulting in a lossed measurement sources and versions.
 
 We realised that the issue was due to the fact that we streamed the change feed.
+The reason to why we streamed the change feed was 
 The [documentation](https://docs.databricks.com/delta/delta-change-data-feed.html) states; 
 
 *"To get the change data while reading the table, set the option readChangeFeed to true. The startingVersion or startingTimestamp are optional and if not provided the stream returns the latest snapshot of the table at the time of streaming as an INSERT...*"
@@ -78,3 +79,5 @@ The received change feed is therefore expected since it contains the latest snap
 Atleast for me, this is not very intuative, I would expect that I would recevive the complete change feed.
 
 ## The solution
+
+To counter to the misunderstanding was to 
