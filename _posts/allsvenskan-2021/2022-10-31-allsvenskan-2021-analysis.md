@@ -1,5 +1,5 @@
 ---
-title: "Comparison of game development between top and bottom three teams in Allsvenskan 2021"
+title: "Allsvenskan 2021 - Analysis"
 date: 2022-09-30T10:48:19+02:00
 tags: [data analysis, python]
 author: Fredrik Mile
