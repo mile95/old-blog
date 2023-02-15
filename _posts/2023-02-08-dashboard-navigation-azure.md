@@ -1,5 +1,5 @@
 ---
-title: "Improve navigation in Azure using a dashboard"
+title: "Improve Navigation in Azure Using a Dashboard"
 date: "2023-02-08T10:48:19+02:00"
 tags: [azure]
 author: Fredrik Mile

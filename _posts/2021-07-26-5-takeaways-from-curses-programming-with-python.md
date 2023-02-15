@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "5 takeaways from curses programming with Python"
+title:  "5 Takeaways from Curses Programming with Python"
 date:   2022-04-26 10:10:15 +0700
 tags: [python]
 ---

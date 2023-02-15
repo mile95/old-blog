@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Better terminal experience for Git and Kubernetes"
+title: "Better Terminal Experience for Git and Kubernetes"
 date: 2022-05-11 21:04:31 +02:00
 tags: [terminal, git, kubernetes]
 ---

@@ -1,12 +1,10 @@
 ---
 layout: post
-title:  "Creating a Twitter bot in Python and let it move into AWS."
+title:  "Creating a Twitter Bot using Python and AWS Lambda."
 date:   2021-05-28 10:10:15 +0700
 tags: [python, aws]
 image: /twitter-bot/twitter_developer.png
 ---
-
-# Creating a Twitter bot in Python and let it move into AWS.
 
 I've wanted to try out Twitter's API and create a Twitter bot for a while, but I lacked a use case for it. But last week, I found a perfect use case for my Twitter bot. 
 

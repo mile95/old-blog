@@ -1,5 +1,5 @@
 ---
-title: "Long feedback loops invite for context switching"
+title: "Long Feedback Loops Invite for Context Switching"
 date: "2022-02-22T10:08:32+02:00"
 tags: mindset
 author: Fredrik Mile

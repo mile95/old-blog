@@ -1,5 +1,5 @@
 ---
-title: "Essentials for teams to perform well"
+title: "Essentials for Teams To Perform Well"
 date: 2022-08-10T10:48:19+02:00
 tags: [mindset]
 description: "Essentials for teams to perform well"

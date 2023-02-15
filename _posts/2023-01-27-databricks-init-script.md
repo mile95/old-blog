@@ -1,5 +1,5 @@
 ---
-title: "Install requirements to Azure Databricks cluster from requirements.txt"
+title: "Install Requirements to Azure Databricks Cluster from requirements.txt"
 date: 2023-01-27T10:48:19+02:00
 tags: [python, azure, databricks]
 author: Fredrik Mile

@@ -1,11 +1,9 @@
 ---
 layout: post
-title:  "A bug I cannot explain or solve"
+title:  "A Bug I cannot Explain or Solve"
 date:   2022-02-08 10:10:15 +0700
 tags: [bash, bug]
 ---
-
-# A bug I cannot explain or solve.
 
 Last week I came across some weird behavior. I’m not sure if it can be considered a bug or not because I cannot grasp my head around it.
 I needed to automate some API calls, and I did that in a bash script. There were two different APIs that I would call. First I would call `API A` to get a `JWT` token. I would then call `API B` including this token in the `Authorization Bearer <token>` header. I’ve done this manually (using both curl and postman) multiple times earlier without any issues.

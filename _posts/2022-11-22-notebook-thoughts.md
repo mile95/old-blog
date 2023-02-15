@@ -1,5 +1,5 @@
 ---
-title: "My thoughts of (python) Notebooks"
+title: "My Thoughts of Python Notebooks"
 date: 2022-11-22T10:48:19+02:00
 tags: [data analysis, python]
 author: Fredrik Mile
