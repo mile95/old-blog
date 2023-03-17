@@ -231,7 +231,7 @@
   @extend %clearfix;
 
   &:not(:first-child) {
-    border-top: 1px solid $light;
+    border-top: 1px solid black;
   }
 
   .post-item-date {
